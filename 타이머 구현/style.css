@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(
+    96.74% 276.79% at 3.59% 5.28%,
+    #f0f4ff 0%,
+    #a5b6ee 100%
+  );
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  width: 244px;
+  height: 48px;
+  margin-bottom: 60px;
+}
+
+.timer {
+  position: relative;
+  width: 400px;
+  height: 360px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.timer::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: #3d538a;
+  margin-top: -250px;
+  margin-left: 22%;
+  margin-right: 25%;
+}
+
+.time {
+  margin-top: 10%;
+  margin-bottom: 18%;
+}
+
+.btns {
+  bottom: -10px;
+}
+
+.corp {
+  margin-top: 60px;
+}
